@@ -20,4 +20,4 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run the App
-        run: mvn quarkus:dev
+        run: mvn quarkus:build
