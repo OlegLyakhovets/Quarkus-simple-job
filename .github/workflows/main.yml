@@ -24,8 +24,8 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: comchangs/action-maven@v0.4-beta
-       # with:
-        # filename: pom.xml
+        with:
+         filename: pom.xml
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
